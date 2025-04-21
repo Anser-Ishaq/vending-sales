@@ -6,37 +6,37 @@ const Hero = () => {
             <header className="main-header p-relative v-dark-head dsn-header-animation over-clip">
                 <div className="box-img w-100 p-absolute top-0 right-0 bottom-0 before-z-index dsn-hero-parallax-img "
                     data-overlay="7">
-                    <img className="cover-bg-img" src="/assets/img/header.jpg" alt="" />
+                    <img className="cover-bg-img" src="/assets/img/header1.png" alt="" />
                 </div>
 
                 <div className="dsn-container">
                     <div className="container-content p-relative z-index-1">
                         <div className="content d-grid">
                             <h1 className="title-lg text-upper d-flex flex-column text-effect" data-dsn-text="28">
-                                <span>BAD</span> <span>SLIDES</span>
-                                <span>KILL</span> <span>GOOD</span> <span>IDEAS</span>
+                                <span>SNACK</span> <span>SMART</span>
+                                <span>VEND</span> <span>EASY</span>
                             </h1>
 
                             <div className="content-float pinned-scroll p-relative pt-30 d-flex flex-column">
                                 <div className="p-relative h-100">
                                     <div className="pinned-elements">
                                         <div className="d-flex flex-column">
-                                            <p className="sm-title-block text-upper"> GRASS® is a global strategic
-                                                branding
-                                                agency for positioning and rebranding the
-                                                world's most visionary tech companies.</p>
+                                            <p className="sm-title-block text-upper">
+                                                VENDING® is a modern solution provider for smart, accessible, and automated refreshment services.
+                                            </p>
                                         </div>
 
                                         <ul className="mt-30">
-                                            <li>Creative Direction / Interface design</li>
-                                            <li>Experience design / product strategy</li>
-                                            <li>Concept development</li>
+                                            <li>Smart Vending Solutions</li>
+                                            <li>Custom Machine Design</li>
+                                            <li>Product Stock & Strategy</li>
                                         </ul>
+
                                     </div>
                                 </div>
 
                                 <div className="box-img mt-30">
-                                    <img src="/assets/img/2024-letter.svg" alt="" />
+                                    <img src="/assets/img/2025-letter1.png" alt="" />
                                 </div>
 
                             </div>

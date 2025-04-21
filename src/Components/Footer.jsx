@@ -6,7 +6,7 @@ const Footer = () => {
             <footer className="footer mt-60 pb-30">
                 <div className="p-relative dsn-marquee over-hidden"
                     data-dsn-option='{"speed":0,"duplicatedNumber":7,"duration":7000,"gap":60,"delayBeforeStart":1000,"direction":"left","duplicated":true,"pauseOnHover":false,"startVisible":true,"pauseOnCycle":true,"allowCss3Support":true}'>
-                    <h2 className="dsn-text-marquee d-flex title-md text-upper">WE ARE GRASS</h2>
+                    <h2 className="dsn-text-marquee d-flex title-md text-upper">WE ARE Vending</h2>
                 </div>
 
                 <div className="dsn-container mt-50">
@@ -21,7 +21,7 @@ const Footer = () => {
                                 </ul>
                             </div>
 
-                            <p className="cop">© 2024 GRASS. All rights reserved.</p>
+                            <p className="cop">© 2025 Vending. All rights reserved.</p>
 
                         </div>
                         <div className="text-right">

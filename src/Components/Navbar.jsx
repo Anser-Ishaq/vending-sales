@@ -8,7 +8,7 @@ const Navbar = () => {
                 <div className="main-logo">
                     <a href="index.html" data-dsn-text="GRASS" className="custom-logo-link main-brand effect-ajax" rel="home"
                         aria-current="page">
-                        <img src="/assets/img/logo-light.png" className="custom-logo logo-light" alt="" />
+                        <img src="/assets/img/logo-light3.png" className="custom-logo logo-light" alt="" />
                         <img src="/assets/img/logo.png" className="custom-logo logo-dark" alt="" />
                     </a>
                 </div>
@@ -19,7 +19,7 @@ const Navbar = () => {
                             <a title="Home" href="#0">
                                 <span className="overflow ">Home</span>
                             </a>
-                            <ul className="nav-item">
+                            {/* <ul className="nav-item">
                                 <li className="dsn-back">
                                     <span>
                                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
@@ -57,14 +57,14 @@ const Navbar = () => {
                                     </a>
                                 </li>
 
-                            </ul>
+                            </ul> */}
                         </li>
 
                         <li className="nav-item has-sub-menu">
                             <a title="Home" href="#0">
                                 <span className="overflow ">Portfolio</span>
                             </a>
-                            <ul className="nav-item">
+                            {/* <ul className="nav-item">
                                 <li className="dsn-back">
                                     <span>
                                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
@@ -104,7 +104,7 @@ const Navbar = () => {
                                         <span className="overflow">work massonary</span>
                                     </a>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </li>
 
                         <li className="nav-item ">

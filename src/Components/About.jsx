@@ -24,14 +24,14 @@ const About = () => {
                   </clipPath>
                 </defs>
               </svg> </span></span>
-              to innovate and remain highly
+              modernize and stay relevant
               <span className="brand"><span className="dsn-icon"> <svg xmlns="http://www.w3.org/2000/svg"
                 width="1000" height="356.39" viewBox="135.5 361.38 1000 356.39">
                 <path
                   d="M245.8075 717.62406c-29.79588-1.1837-54.1734-9.3368-73.23459-24.4796-3.63775-2.8928-12.30611-11.5663-15.21427-15.2245-7.72958-9.7193-12.98467-19.1785-16.48977-29.6734-10.7857-32.3061-5.23469-74.6989 15.87753-121.2243 18.0765-39.8316 45.96932-79.3366 94.63252-134.0508 7.16836-8.0511 28.51526-31.5969 28.65302-31.5969.051 0-1.11225 2.0153-2.57652 4.4694-12.65304 21.1938-23.47957 46.158-29.37751 67.7703-9.47448 34.6785-8.33163 64.4387 3.34693 87.5151 8.05611 15.898 21.86731 29.6684 37.3979 37.2806 27.18874 13.3214 66.9948 14.4235 115.60699 3.2245 3.34694-.7755 169.19363-44.801 368.55048-97.8366 199.35686-53.0408 362.49439-96.4029 362.51989-96.3672.056.046-463.16259 198.2599-703.62654 301.0914-38.08158 16.2806-48.26521 20.3928-66.16827 26.6785-45.76525 16.0714-86.76008 23.7398-119.89779 22.4235z">
                 </path>
               </svg> </span></span>
-              relevant to their
+              with smart vending
               <span className="brand"><span className="dsn-icon"> <svg xmlns="http://www.w3.org/2000/svg"
                 width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path
@@ -47,7 +47,7 @@ const About = () => {
                   d="M12 5.375C13.615 5.375 15.065 5.93 16.205 7.02L19.36 3.865C17.455 2.09 14.965 1 12 1C7.7 1 3.98 3.465 2.17 7.06L5.845 9.91C6.71 7.31 9.135 5.375 12 5.375Z"
                   fill="var(--color-primary)"></path>
               </svg> </span></span>
-              products
+              solutions
               <span className="brand"><span className="dsn-icon"> <svg width="49" height="24"
                 viewBox="0 0 49 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_367_3879)">
@@ -75,12 +75,10 @@ const About = () => {
 
       <div className="about-section container">
         <div className="w-50 ml-auto">
-          <p className="max-w570 mt-30">OUR
-            EXPERTISE IS THE CORNERSTONE OF OUR SUCCESS. WITH
-            YEARS OF
-            EXPERIENCE IN WEB DESIGN, DEVELOPMENT, AND BRANDING, WE'VE HONED OUR SKILLS TO
-            PERFECTION.
+          <p className="max-w570 mt-30">
+            OUR EXPERTISE DRIVES OUR INNOVATION. WITH YEARS OF EXPERIENCE IN VENDING TECHNOLOGY, OPERATIONS, AND CUSTOMER SERVICE, WE DELIVER RELIABLE AND MODERN SOLUTIONS.
           </p>
+
 
           <div className="">
             <div className="dsn-btn dsn-btn-shape d-flex mt-30 ">

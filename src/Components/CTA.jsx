@@ -12,8 +12,8 @@ const CTA = () => {
 
                     <div className="container">
                         <div className="content d-flex flex-column align-items-center p-relative z-index-1">
-                            <h2 className="title-md text-effect" data-dsn-text="28">DISCOVER <span
-                                className="font-sac">Our</span> STUDIO</h2>
+                            <h2 className="title-md text-effect" data-dsn-text="28">EXPLORE <span className="font-sac">Our</span> SPACE</h2>
+
 
                             <div className="btn-lg mt-30 gap-25">
                                 <a href="#">
@@ -75,7 +75,7 @@ const CTA = () => {
                                     <ul className="">
                                         <li className="d-flex gap-5 text-upper">
                                             <span>Project inquiries :</span>
-                                            <a href="mailto:grass@emai.com">grass@emai.com</a>
+                                            <a href="mailto:grass@emai.com">vending@emai.com</a>
                                         </li>
                                     </ul>
                                 </div>
