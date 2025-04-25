@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 const Footer = () => {
     return (
@@ -14,10 +15,10 @@ const Footer = () => {
                         <div className="text-left d-flex flex-column gap-row-10">
                             <div className="links">
                                 <ul className="d-flex gap-25">
-                                    <li><a href="#">HOME</a></li>
-                                    <li><a href="#">ABOUT</a></li>
-                                    <li><a href="#">WORK</a></li>
-                                    <li><a href="#">CONTACT</a></li>
+                                    <li><Link to="/">HOME</Link></li>
+                                    <li><Link to="/about">ABOUT</Link></li>
+                                    <li><Link to="/portfolio">PORTFOLIO</Link></li>
+                                    <li><Link to="/contact">CONTACT</Link></li>
                                 </ul>
                             </div>
 

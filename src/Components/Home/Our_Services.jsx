@@ -1,5 +1,5 @@
 import React from 'react'
-import { Services } from '../Static/Services'
+import { Services } from '../../Static/Services'
 
 const Our_Services = () => {
     return (

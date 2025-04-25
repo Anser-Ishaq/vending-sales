@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 const Navbar = () => {
     return (
@@ -16,9 +17,9 @@ const Navbar = () => {
                     <div className="menu-cover-title header-container dsn-container">MENU</div>
                     <ul id="dsn-primary-list" className="primary-nav h2">
                         <li className="nav-item has-sub-menu">
-                            <a title="Home" href="#0">
+                            <Link title="Home" to="/">
                                 <span className="overflow ">Home</span>
-                            </a>
+                            </Link>
                             {/* <ul className="nav-item">
                                 <li className="dsn-back">
                                     <span>
@@ -61,9 +62,9 @@ const Navbar = () => {
                         </li>
 
                         <li className="nav-item has-sub-menu">
-                            <a title="Home" href="#0">
+                            <Link title="Home" to="/portfolio">
                                 <span className="overflow ">Portfolio</span>
-                            </a>
+                            </Link>
                             {/* <ul className="nav-item">
                                 <li className="dsn-back">
                                     <span>
@@ -108,14 +109,14 @@ const Navbar = () => {
                         </li>
 
                         <li className="nav-item ">
-                            <a title="About" href="about.html">
+                            <Link title="About" to="/about">
                                 <span className="overflow">About</span>
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item ">
-                            <a title="Contact" href="contact.html">
+                            <Link title="Contact" to="/contact">
                                 <span className="overflow">Contact</span>
-                            </a>
+                            </Link>
                         </li>
                     </ul>
 
