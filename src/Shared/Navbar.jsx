@@ -5,120 +5,42 @@ const Navbar = () => {
     return (
         <>
             {/* <!-- ========== Menu ========== --> */}
-            <header id="site_menu_header" className="site-header">
+            <header  id="site_menu_header"  className="site-header">
                 <div className="main-logo">
-                    <a href="index.html" data-dsn-text="GRASS" className="custom-logo-link main-brand effect-ajax" rel="home"
+                    <a href="/" onClick={(e) => { e.preventDefault(); window.location.href = '/'; }}   className="custom-logo-link main-brand effect-ajax"  
                         aria-current="page">
-                        <img src="/assets/img/logo-light3.png" className="custom-logo logo-light" alt="" />
-                        <img src="/assets/img/logo.png" className="custom-logo logo-dark" alt="" />
+                        <img src="/assets/img/logo-light4.png" className="custom-logo logo-light" alt="" />
+                        <img src="/assets/img/logo-light4.png" className="custom-logo logo-dark" alt="" />
                     </a>
                 </div>
                 <nav className="main-navigation ">
                     <div className="menu-cover-title header-container dsn-container">MENU</div>
                     <ul id="dsn-primary-list" className="primary-nav h2">
                         <li className="nav-item has-sub-menu">
-                            <Link title="Home" to="/">
-                                <span className="overflow ">Home</span>
-                            </Link>
-                            {/* <ul className="nav-item">
-                                <li className="dsn-back">
-                                    <span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
-                                            viewBox="0 0 400.004 400.004" xmlSpace="preserve">
-                                            <g>
-                                                <path
-                                                    d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z" />
-                                            </g>
-                                        </svg>
-                                        <span className="text-toggle-back">
-                                            <span className="text-name">Home</span>
-                                            <span className="text-back">Back</span>
-                                        </span>
-                                    </span>
-                                </li>
-                                <li className="nav-item ">
-                                    <a title="Home" href="index.html">
-                                        <span className="overflow">Main Demo</span>
-                                    </a>
-                                </li>
-                                <li className="nav-item ">
-                                    <a title="Demo 2" href="demo-2.html" data-dsn-text="Demo 2">
-                                        <span className="overflow">Demo 2</span>
-                                    </a>
-                                </li>
-                                <li className="nav-item ">
-                                    <a title="infinity work" href="infinity-work.html" data-dsn-text="infinity work">
-                                        <span className="overflow">infinity work</span>
-                                    </a>
-                                </li>
-                                <li className="nav-item ">
-                                    <a title="parallax carousel" href="parallax-carousel.html"
-                                        data-dsn-text="parallax carousel">
-                                        <span className="overflow">parallax carousel</span>
-                                    </a>
-                                </li>
-
-                            </ul> */}
+                            <a href="/" onClick={(e) => { e.preventDefault(); window.location.href = '/'; }}>
+                                <span className="overflow">Home</span>
+                            </a>
                         </li>
 
                         <li className="nav-item has-sub-menu">
-                            <Link title="Home" to="/portfolio">
-                                <span className="overflow ">Portfolio</span>
-                            </Link>
-                            {/* <ul className="nav-item">
-                                <li className="dsn-back">
-                                    <span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
-                                            viewBox="0 0 400.004 400.004" xmlSpace="preserve">
-                                            <g>
-                                                <path
-                                                    d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z" />
-                                            </g>
-                                        </svg>
-                                        <span className="text-toggle-back">
-                                            <span className="text-name">Portfolio</span>
-                                            <span className="text-back">Back</span>
-                                        </span>
-                                    </span>
-                                </li>
-
-                                <li className="nav-item">
-                                    <a title="work grid 2 col" href="work-grid.html" data-dsn-text="work grid 2 col">
-                                        <span className="overflow">work grid 2 col</span>
-                                    </a>
-                                </li>
-
-                                <li className="nav-item">
-                                    <a title="work grid 3 col" href="work-grid-2.html" data-dsn-text="work grid 3 col">
-                                        <span className="overflow">work grid 3 col</span>
-                                    </a>
-                                </li>
-
-                                <li className="nav-item">
-                                    <a title="horizontal Scroll" href="work.html" data-dsn-text="Portfolio">
-                                        <span className="overflow">horizontal Scroll</span>
-                                    </a>
-                                </li>
-
-                                <li className="nav-item">
-                                    <a title="work massonary" href="work-massonery.html" data-dsn-text="work massonary">
-                                        <span className="overflow">work massonary</span>
-                                    </a>
-                                </li>
-                            </ul> */}
+                            <a href="/blog" onClick={(e) => { e.preventDefault(); window.location.href = '/blog'; }}>
+                                <span className="overflow">Blogs</span>
+                            </a>
                         </li>
 
-                        <li className="nav-item ">
-                            <Link title="About" to="/about">
+                        <li className="nav-item">
+                            <a href="/about" onClick={(e) => { e.preventDefault(); window.location.href = '/about'; }}>
                                 <span className="overflow">About</span>
-                            </Link>
+                            </a>
                         </li>
-                        <li className="nav-item ">
-                            <Link title="Contact" to="/contact">
+
+                        <li className="nav-item">
+                            <a href="/contact" onClick={(e) => { e.preventDefault(); window.location.href = '/contact'; }}>
                                 <span className="overflow">Contact</span>
-                            </Link>
+                            </a>
                         </li>
                     </ul>
+
 
                     <div className="container-content  d-flex flex-column justify-content-center section-margin">
                         <div className="nav__info">

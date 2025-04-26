@@ -16,7 +16,7 @@ const CTA = () => {
 
 
                             <div className="btn-lg mt-30 gap-25">
-                                <a href="#">
+                                <a href="/contact" onClick={(e) => { e.preventDefault(); window.location.href = '/contact'; }}>
                                     <div className="btn-lg-inner filter-bg">
                                         <div className="text-inner">
                                             <p className="text-upper heading-color">GET IN TOUCH</p>

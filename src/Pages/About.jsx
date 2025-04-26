@@ -10,9 +10,9 @@ const About = () => {
   return (
     <>
       <body className="v-dark dsn-ajax">
-        <Navbar/>
+        <Navbar />
         <AboutComp />
-        <Footer/>
+        <Footer />
         <Cursor />
       </body>
     </>

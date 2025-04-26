@@ -1,9 +1,9 @@
 export const Services = [
   {
     iconBgClass: "background-main v-dark",
-    title: "Infographic Design",
+    title: "Free Machines",
     description:
-      "We offer comprehensive vending design solutions from custom machine wraps to promotional infographics.",
+      "Increase productivity and keep your team fueled with CPVL Vending’s complimentary vending machine placements, offering convenient access to snacks and healthy options right in the workplace, at no cost.",
     features: ["Custom Wraps", "Digital Screens", "Product Layout Optimization"],
     svg: (
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -14,9 +14,9 @@ export const Services = [
   },
   {
     iconBgClass: "background-section v-dark",
-    title: "Vending Management",
+    title: "Buy a Business",
     description:
-      "Get real-time analytics, remote control, and maintenance scheduling through our custom web dashboards.",
+      "tep into a ready-to-operate vending business with CPVL Vending, a solution that combines profitability with convenience. We can assist in financing options, ensuring a smooth transition into your new venture.",
     features: ["Live Analytics", "Remote Refill Alerts", "Maintenance Logs"],
     svg: (
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="512"
@@ -28,9 +28,9 @@ export const Services = [
   },
   {
     iconBgClass: "background-main v-dark",
-    title: "Vending Interfaces",
+    title: "Buy a Machine",
     description:
-      "Designing intuitive and visually engaging interfaces for touchscreen vending machines.",
+      "Buy a high-quality vending machine from CPVL Vending. Tailored to meet your specific needs, our machines ensure a seamless and efficient vending experience, equipped with the latest technology to serve you and your customers",
     features: ["Touchscreen UI", "User Flow Mapping", "Accessibility Focused"],
     svg: (
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="512"

@@ -3,277 +3,112 @@ import LoadScripts from '../Hooks/LoadScripts';
 import Cursor from '../Components/Cursor/Cursor';
 import Navbar from '../Shared/Navbar';
 import Footer from '../Shared/Footer';
+import Our_work from '../Components/Home/Our_work';
+import CTA from '../Shared/CTA';
 const Work = () => {
     LoadScripts()
     return (
         <>
-            <body classNameName="v-dark dsn-ajax">
-                <Navbar/>
-                <section id="about_us" className="our-work work-scroll section-margin">
-                    <div className="dsn-container">
-                        <div className="dsn-cards">
-                            <div className="dsn-cards use-v-scroll p-relative"
-                                data-dsn-option='{"speed" : 4,"center_screen" : true }'>
-                                <div className="dsn-posts ">
-                                    <article className="dsn-item-post grid-item over-hidden p-relative has-border-radius photography">
+            <body className="v-dark dsn-ajax">
+                <main className="main-root">
+                    <Navbar />
+                    <div id="dsn-scrollbar">
+                        <div id="page_wrapper" className="wrapper">
+                            <div className="p-relative over-clip">
+                                <header className="header-no-bg p-relative v-dark-head dsn-header-animation over-hidden">
+                                    <div className="box-img w-100 p-absolute top-0 right-0 bottom-0 before-z-index dsn-hero-parallax-img "
+                                        data-overlay="7">
+                                        <img className="cover-bg-img" src="/assets/img/about-back.jpg" alt="" />
+                                    </div>
 
-                                        <div className="box-content d-flex ">
-                                            <div className="img-cat w-100">
-                                                <div className="box-image-bg w-100 over-hidden has-border-radius before-z-index dsn-swiper-parallax-transform p-relative"
-                                                    data-overlay="5">
-                                                    <img src="/assets/img/portfolio/project1/1.jpg"
-                                                        className="cover-bg-img dsn-swiper-parallax-transform" alt="" />
+                                    <div className="content p-relative z-index-1">
+                                        <div className="container">
+                                            <h1 className="title-lg text-upper">OUR BLOGS</h1>
+
+                                            <div className="d-flex align-items-center gap-30 mt-20">
+                                                <div className="icon-s background-main v-light">
+                                                    <svg height="820" viewBox="0 0 1066 820" width="1066"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="m532.999 546.66h-266.499v-273.32h532.196l266.504-273.34h-598.835l-466.365 478.335v341.665h333.115l399.749-409.99v409.99h266.481v-478.335h-266.481z"
+                                                            fill="#000000"></path>
+                                                    </svg>
                                                 </div>
+                                                <h5 className="sm-title-block text-upper max-w570">We are comfortable working at the pace
+                                                    and cost that caters to early-stage start-ups. We work as hard as you.</h5>
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="footer-header p-absolute bottom-0 left-0 w-100 pb-30 z-index-1 dsn-container d-flex justify-content-between">
 
-                                            <div className="post-content z-index-1 d-flex flex-column p-absolute">
-                                                <div className="post-info d-flex flex-column  align-items-center">
+                                        <div className="dsn-btn dsn-btn-shape d-flex no-padding text-upper">
 
-                                                    <h2 className="post-title word-wrap d-inline-block title-lg text-upper text-effect" data-dsn-text="28">
-                                                        <a href="project-1.html" className="effect-ajax init-color"
-                                                            data-dsn-ajax="work">the Heaven</a>
-                                                    </h2>
-                                                </div>
-                                            </div>
+                                            <a className="button" href="#about_us" rel="nofollow"
+                                                data-dsn-option='{"ease": "power4.inOut" , "duration" : 1.5}'>
+                                                <span className="title-btn p-relative  z-index-1" data-animate-text="Scroll to Explore">
+                                                    <span>Scroll to Explore</span>
+                                                </span>
+                                            </a>
 
-                                            <div
-                                                className="d-flex justify-content-between align-items-center w-100 mt-auto p-absolute bottom-0 left-0 z-index-1 p-30">
-                                                <div className="slide-date"><span
-                                                    className="filter-bg heading-color">2021</span></div>
-
-                                                <div className="cat d-flex">
-                                                    <span className="filter-bg heading-color">Photography</span>
-                                                </div>
-                                            </div>
+                                            <span className="icon theme-color">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path
+                                                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                                                </svg>
+                                            </span>
 
                                         </div>
 
-                                    </article>
+                                        <div className="social-box d-flex align-items-center gap-20">
+                                            <p>Follow us</p>
 
-                                    <article className="dsn-item-post grid-item over-hidden p-relative has-border-radius Product">
+                                            <ul className="box-social d-flex">
+                                                <li>
+                                                    <a href="#">
+                                                        <span className="word-root">
+                                                            <span className="double-word-column">
+                                                                <span className="word">Facebook</span>
+                                                                <span className="word">Facebook</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
 
-                                        <div className="box-content d-flex ">
-                                            <div className="img-cat w-100">
-                                                <div className="box-image-bg w-100 over-hidden has-border-radius before-z-index dsn-swiper-parallax-transform p-relative"
-                                                    data-overlay="5">
-                                                    <img src="/assets/img/portfolio/project2/1.jpg"
-                                                        className="cover-bg-img dsn-swiper-parallax-transform" alt="" />
-                                                </div>
-                                            </div>
+                                                <li>
+                                                    <a href="#">
+                                                        <span className="word-root">
+                                                            <span className="double-word-column">
+                                                                <span className="word">Instagram</span>
+                                                                <span className="word">Instagram</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
 
-                                            <div className="post-content z-index-1 d-flex flex-column p-absolute">
-                                                <div className="post-info d-flex flex-column  align-items-center">
-
-                                                    <h2 className="post-title word-wrap d-inline-block title-lg text-upper text-effect" data-dsn-text="28">
-                                                        <a href="project-2.html" className="effect-ajax init-color"
-                                                            data-dsn-ajax="work">BLQK COFFEE</a>
-                                                    </h2>
-                                                </div>
-                                            </div>
-
-                                            <div
-                                                className="d-flex justify-content-between align-items-center w-100 mt-auto p-absolute bottom-0 left-0 z-index-1 p-30">
-                                                <div className="slide-date"><span
-                                                    className="filter-bg heading-color">2021</span></div>
-
-                                                <div className="cat d-flex">
-                                                    <span className="filter-bg heading-color">Product Photography</span>
-                                                </div>
-                                            </div>
-
+                                                <li>
+                                                    <a href="#">
+                                                        <span className="word-root">
+                                                            <span className="double-word-column">
+                                                                <span className="word">Youtube</span>
+                                                                <span className="word">Youtube</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
                                         </div>
-
-                                    </article>
-
-                                    <article className="dsn-item-post grid-item over-hidden p-relative has-border-radius architecture">
-
-                                        <div className="box-content d-flex ">
-                                            <div className="img-cat w-100">
-                                                <div className="box-image-bg w-100 over-hidden has-border-radius before-z-index dsn-swiper-parallax-transform p-relative"
-                                                    data-overlay="5">
-                                                    <img src="/assets/img/portfolio/project3/1.jpg"
-                                                        className="cover-bg-img dsn-swiper-parallax-transform" alt="" />
-                                                </div>
-                                            </div>
-
-                                            <div className="post-content z-index-1 d-flex flex-column p-absolute">
-                                                <div className="post-info d-flex flex-column  align-items-center">
-
-                                                    <h2 className="post-title word-wrap d-inline-block title-lg text-upper text-effect" data-dsn-text="28">
-                                                        <a href="project-3.html" className="effect-ajax init-color"
-                                                            data-dsn-ajax="work">Metaline</a>
-                                                    </h2>
-                                                </div>
-                                            </div>
-
-                                            <div
-                                                className="d-flex justify-content-between align-items-center w-100 mt-auto p-absolute bottom-0 left-0 z-index-1 p-30">
-                                                <div className="slide-date"><span
-                                                    className="filter-bg heading-color">2018</span></div>
-
-                                                <div className="cat d-flex">
-                                                    <span className="filter-bg heading-color">Architecture</span>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </article>
-
-                                    <article className="dsn-item-post grid-item over-hidden p-relative has-border-radius fashion">
-
-                                        <div className="box-content d-flex ">
-                                            <div className="img-cat w-100">
-                                                <div className="box-image-bg w-100 over-hidden has-border-radius before-z-index dsn-swiper-parallax-transform p-relative"
-                                                    data-overlay="5">
-                                                    <img src="/assets/img/portfolio/project4/1.jpg"
-                                                        className="cover-bg-img dsn-swiper-parallax-transform" alt="" />
-                                                </div>
-                                            </div>
-
-                                            <div className="post-content z-index-1 d-flex flex-column p-absolute">
-                                                <div className="post-info d-flex flex-column  align-items-center">
-
-                                                    <h2 className="post-title word-wrap d-inline-block title-lg text-upper text-effect" data-dsn-text="28">
-                                                        <a href="project-4.html" className="effect-ajax init-color"
-                                                            data-dsn-ajax="work">Filippo Loreti</a>
-                                                    </h2>
-                                                </div>
-                                            </div>
-
-                                            <div
-                                                className="d-flex justify-content-between align-items-center w-100 mt-auto p-absolute bottom-0 left-0 z-index-1 p-30">
-                                                <div className="slide-date"><span
-                                                    className="filter-bg heading-color">2017</span></div>
-
-                                                <div className="cat d-flex">
-                                                    <span className="filter-bg heading-color">Fashion Styling</span>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </article>
-
-                                    <article className="dsn-item-post grid-item over-hidden p-relative has-border-radius fine-arts">
-
-                                        <div className="box-content d-flex ">
-                                            <div className="img-cat w-100">
-                                                <div className="box-image-bg w-100 over-hidden has-border-radius before-z-index dsn-swiper-parallax-transform p-relative"
-                                                    data-overlay="3">
-                                                    <img src="/assets/img/portfolio/project5/1.jpg"
-                                                        className="cover-bg-img dsn-swiper-parallax-transform" alt="" />
-                                                </div>
-                                            </div>
-
-                                            <div className="post-content z-index-1 d-flex flex-column p-absolute">
-                                                <div className="post-info d-flex flex-column  align-items-center">
-
-                                                    <h2 className="post-title word-wrap d-inline-block title-lg text-upper text-effect" data-dsn-text="28">
-                                                        <a href="project-5.html" className="effect-ajax init-color"
-                                                            data-dsn-ajax="work">Words Speak</a>
-                                                    </h2>
-                                                </div>
-                                            </div>
-
-                                            <div
-                                                className="d-flex justify-content-between align-items-center w-100 mt-auto p-absolute bottom-0 left-0 z-index-1 p-30">
-                                                <div className="slide-date"><span
-                                                    className="filter-bg heading-color">2016</span></div>
-
-                                                <div className="cat d-flex">
-                                                    <span className="filter-bg heading-color">Fine Arts</span>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </article>
-
-                                    <article className="dsn-item-post grid-item over-hidden p-relative has-border-radius photography">
-
-                                        <div className="box-content d-flex ">
-                                            <div className="img-cat w-100">
-                                                <div className="box-image-bg w-100 over-hidden has-border-radius before-z-index dsn-swiper-parallax-transform p-relative"
-                                                    data-overlay="3">
-                                                    <img src="/assets/img/portfolio/project6/1.jpg"
-                                                        className="cover-bg-img dsn-swiper-parallax-transform" alt="" />
-                                                </div>
-                                            </div>
-
-                                            <div className="post-content z-index-1 d-flex flex-column p-absolute">
-                                                <div className="post-info d-flex flex-column  align-items-center">
-
-                                                    <h2 className="post-title word-wrap d-inline-block title-lg text-upper text-effect" data-dsn-text="28">
-                                                        <a href="project-6.html" className="effect-ajax init-color"
-                                                            data-dsn-ajax="work">Park Road</a>
-                                                    </h2>
-                                                </div>
-                                            </div>
-
-                                            <div
-                                                className="d-flex justify-content-between align-items-center w-100 mt-auto p-absolute bottom-0 left-0 z-index-1 p-30">
-                                                <div className="slide-date"><span
-                                                    className="filter-bg heading-color">2016</span></div>
-
-                                                <div className="cat d-flex">
-                                                    <span className="filter-bg heading-color">photography</span>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </article>
-
-                                    <article className="dsn-item-post grid-item over-hidden p-relative has-border-radius photography">
-
-                                        <div className="box-content d-flex ">
-                                            <div className="img-cat w-100">
-                                                <div className="box-image-bg w-100 over-hidden has-border-radius before-z-index dsn-swiper-parallax-transform p-relative"
-                                                    data-overlay="3">
-                                                    <img src="/assets/img/portfolio/project7/1.jpg"
-                                                        className="cover-bg-img dsn-swiper-parallax-transform" alt="" />
-                                                </div>
-                                            </div>
-
-                                            <div className="post-content z-index-1 d-flex flex-column p-absolute">
-                                                <div className="post-info d-flex flex-column  align-items-center">
-
-                                                    <h2 className="post-title word-wrap d-inline-block title-lg text-upper text-effect" data-dsn-text="28">
-                                                        <a href="project-7.html" className="effect-ajax init-color"
-                                                            data-dsn-ajax="work">ADAPTABLE II</a>
-                                                    </h2>
-                                                </div>
-                                            </div>
-
-                                            <div
-                                                className="d-flex justify-content-between align-items-center w-100 mt-auto p-absolute bottom-0 left-0 z-index-1 p-30">
-                                                <div className="slide-date"><span
-                                                    className="filter-bg heading-color">2024</span></div>
-
-                                                <div className="cat d-flex">
-                                                    <span className="filter-bg heading-color">photography</span>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </article>
-                                </div>
+                                    </div>
+                                </header>
+                                <Our_work />
                             </div>
+                            {/* <Our_work />
+                            <Our_Services /> */}
                         </div>
+                        <CTA />
+                        <Footer />
                     </div>
-                </section>
-
-                <section
-                    className="next-page-2 over-hidden pt-section z-index-1 p-relative d-flex flex-column align-items-center justify-content-center text-center">
-                    <span className="sub-title d-flex align-items-center justify-content-center text-center gap-10 mb-30">
-                        <span className="rel">EXPLORING OUR WORLD <br /> OF VISUAL AND INTERACTIVE DESIGN</span>
-                    </span>
-                    <h2>contact</h2>
-                </section>
-<Footer/>
-
+                </main>
                 <Cursor />
             </body>
 

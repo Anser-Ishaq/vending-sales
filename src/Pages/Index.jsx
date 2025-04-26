@@ -9,12 +9,13 @@ import Our_Services from '../Components/Home/Our_Services';
 import Footer from '../Shared/Footer';
 import CTA from '../Shared/CTA';
 import Cursor from '../Components/Cursor/Cursor';
+import Testimonials from '../Shared/Testimonials';
 const Index = () => {
     LoadScripts()
     return (
         <>
             <body className="v-dark dsn-ajax">
-                <main id="main_root" className="main-root">
+                <main  className="main-root">
                     <Navbar />
                     <div id="dsn-scrollbar">
                         <div id="page_wrapper" className="wrapper">
@@ -24,6 +25,7 @@ const Index = () => {
                             </div>
                             <Our_work />
                             <Our_Services />
+                            <Testimonials/>
                         </div>
                         <CTA />
                         <Footer />
