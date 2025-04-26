@@ -22,15 +22,15 @@ const Navbar = () => {
                             </a>
                         </li>
 
-                        <li className="nav-item has-sub-menu">
-                            <a href="/blog" onClick={(e) => { e.preventDefault(); window.location.href = '/blog'; }}>
-                                <span className="overflow">Blogs</span>
-                            </a>
-                        </li>
-
                         <li className="nav-item">
                             <a href="/about" onClick={(e) => { e.preventDefault(); window.location.href = '/about'; }}>
                                 <span className="overflow">About</span>
+                            </a>
+                        </li>
+
+                        <li className="nav-item has-sub-menu">
+                            <a href="/blog" onClick={(e) => { e.preventDefault(); window.location.href = '/blog'; }}>
+                                <span className="overflow">Blogs</span>
                             </a>
                         </li>
 

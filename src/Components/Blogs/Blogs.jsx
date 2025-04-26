@@ -55,14 +55,14 @@ const Blogs = () => {
                                         {article.largeTitle}</p>
                                     <div className="dsn-btn dsn-btn-shape d-inline-flex d-flex no-padding text-upper">
 
-                                        <a className="button"
-                                            href="https://www.behance.net/gallery/124633061/Heaven?tracking_source=curated_galleries_photography"
+                                        <Link className="button"
+                                            to="/blog"
                                             target="_blank">
                                             <span className="title-btn p-relative  z-index-1"
                                                 data-animate-text="View project">
                                                 <span>More Blogs</span>
                                             </span>
-                                        </a>
+                                        </Link>
 
                                         <span className="icon background-section theme-color">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
