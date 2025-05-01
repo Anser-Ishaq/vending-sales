@@ -12,7 +12,7 @@ const AboutComp = () => {
         <header className="header-no-bg p-relative v-dark-head dsn-header-animation over-hidden">
           <div className="box-img w-100 p-absolute top-0 right-0 bottom-0 before-z-index dsn-hero-parallax-img "
             data-overlay="7">
-            <img className="cover-bg-img" src="/assets/img/about/v2-bapngjpg" alt="" />
+            <img className="cover-bg-img" src="/assets/img/about-back.jpg" alt="" />
           </div>
 
           <div className="content p-relative z-index-1">

@@ -45,7 +45,7 @@ const About = () => {
               <a className="button background-section v-dark effect-ajax" href="/contact" onClick={(e) => { e.preventDefault(); window.location.href = '/about'; }}>
                 <span className="title-btn text-upper p-relative  z-index-1 heading-color"
                   data-animate-text="About Me">
-                  <span>About Me</span>
+                  <span>About Us</span>
                 </span>
               </a>
 

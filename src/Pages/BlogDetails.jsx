@@ -1,16 +1,17 @@
 import React from 'react'
 import LoadScripts from '../Hooks/LoadScripts'
 import Navbar from '../Shared/Navbar'
-import Blogs from '../Components/Blogs/Blogs'
 import Cursor from '../Components/Cursor/Cursor'
 import Footer from '../Shared/Footer'
+import { Articles } from '../Static/Articles'
+import ContentDetails from '../Components/Content'
 
 const BlogDetails = () => {
     LoadScripts()
     return (
         <body className="v-dark dsn-ajax">
             <Navbar />
-            <Blogs />
+            <ContentDetails dataSource={Articles} contentType="blog" />
             <Cursor />
             <Footer />
         </body>

@@ -10,7 +10,7 @@ const Our_Services = () => {
                         <h2 className="title text-center">
 
                             <span className="d-block"></span>
-                            Modern Convenience
+                            Why CPVL
                         </h2>
                     </div>
 

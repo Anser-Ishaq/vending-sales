@@ -5,9 +5,9 @@ const Navbar = () => {
     return (
         <>
             {/* <!-- ========== Menu ========== --> */}
-            <header  id="site_menu_header"  className="site-header">
+            <header id="site_menu_header" className="site-header">
                 <div className="main-logo">
-                    <a href="/" onClick={(e) => { e.preventDefault(); window.location.href = '/'; }}   className="custom-logo-link main-brand effect-ajax"  
+                    <a href="/" onClick={(e) => { e.preventDefault(); window.location.href = '/'; }} className="custom-logo-link main-brand effect-ajax"
                         aria-current="page">
                         <img src="/assets/img/logo-light4.png" className="custom-logo logo-light" alt="" />
                         <img src="/assets/img/logo-light4.png" className="custom-logo logo-dark" alt="" />
@@ -20,6 +20,56 @@ const Navbar = () => {
                             <a href="/" onClick={(e) => { e.preventDefault(); window.location.href = '/'; }}>
                                 <span className="overflow">Home</span>
                             </a>
+                        </li>
+
+                        <li className="nav-item has-sub-menu">
+                            <a href="/machines" onClick={(e) => { e.preventDefault(); window.location.href = '/machines'; }}>
+                                <span className="overflow">Machines</span>
+                            </a>
+                            <ul className="nav-item">
+                                <li className="dsn-back">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
+                                            viewBox="0 0 400.004 400.004" xml:space="preserve">
+                                            <g>
+                                                <path
+                                                    d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z" />
+                                            </g>
+                                        </svg>
+                                        <span className="text-toggle-back">
+                                            <span className="text-name">Home</span>
+                                            <span className="text-back">Back</span>
+                                        </span>
+                                    </span>
+                                </li>
+                                <li className="nav-item ">
+                                    <a title="Home" href="/machines/custom-vending-machines" onClick={(e) => { e.preventDefault(); window.location.href = '/machines/custom-vending-machines'; }}>
+                                        <span className="overflow">Custom Machines</span>
+                                    </a>
+                                </li>
+                                <li className="nav-item ">
+                                    <a title="Demo 2" href="/machines/school-vending-machines" onClick={(e) => { e.preventDefault(); window.location.href = '/machines/school-vending-machines'; }} data-dsn-text="Demo 2">
+                                        <span className="overflow">School Machines</span>
+                                    </a>
+                                </li>
+                                <li className="nav-item ">
+                                    <a title="infinity work" href="/machines/hospital-vending-machines" onClick={(e) => { e.preventDefault(); window.location.href = '/machines/hospital-vending-machines'; }} data-dsn-text="infinity work">
+                                        <span className="overflow">Hospital Machines</span>
+                                    </a>
+                                </li>
+                                <li className="nav-item ">
+                                    <a title="parallax carousel" href="/machines/gym-vending-machines" onClick={(e) => { e.preventDefault(); window.location.href = '/machines/gym-vending-machines'; }}
+                                        data-dsn-text="parallax carousel">
+                                        <span className="overflow">Gym Machines</span>
+                                    </a>
+                                </li>
+                                <li className="nav-item ">
+                                    <a title="parallax carousel" href="/machines/fresh-food-vending-machines" onClick={(e) => { e.preventDefault(); window.location.href = '/machines/fresh-food-vending-machines'; }}
+                                        data-dsn-text="parallax carousel">
+                                        <span className="overflow">Fast Food Machines</span>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
 
                         <li className="nav-item">
