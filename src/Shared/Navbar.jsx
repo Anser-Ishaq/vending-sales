@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router'
-
+import "./navbar.css"
 const Navbar = () => {
+
+    const [menuActive, setMenuActive] = useState(false);
+    const [dropdownOpen, setDropdownOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuActive(prev => !prev);
+    };
+    const toggleDropdown = () => setDropdownOpen(prev => !prev);
+
+
     return (
         <>
             {/* <!-- ========== Menu ========== --> */}
-            <header id="site_menu_header" className="site-header">
+            {/* <header id="site_menu_header" className="site-header">
                 <div className="main-logo">
                     <a href="/" onClick={(e) => { e.preventDefault(); window.location.href = '/'; }} className="custom-logo-link main-brand effect-ajax"
                         aria-current="page">
@@ -150,8 +160,57 @@ const Navbar = () => {
                     <path vectorEffect="non-scaling-stroke" d="M 0 100 V 100 Q 50 100 100 100 V 100 z" />
                 </svg>
 
-            </header>
+            </header> */}
             {/* <!-- ========== End Menu ========== --> */}
+
+
+
+            <header className="header">
+
+                <div className="main-logo">
+                    <a href="/" onClick={(e) => { e.preventDefault(); window.location.href = '/'; }} className="custom-logo-link main-brand effect-ajax"
+                        aria-current="page">
+                        <img src="/assets/img/logo-light4.png" className="custom-logo logo-light" alt="" />
+                        <img src="/assets/img/logo-light4.png" className="custom-logo logo-dark" alt="" />
+                    </a>
+                </div>
+
+                {/* Menu icon */}
+                <i
+                    className={`bx ${menuActive ? 'bx-x' : 'bx-menu'}`}
+                    id="menu-icon"
+                    onClick={toggleMenu}
+                ></i>
+
+                {/* Nav menu */}
+                <nav className={`navbar ${menuActive ? 'active' : ''}`}>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
+                    <div
+                        className={`dropdown ${dropdownOpen ? 'open' : ''}`}
+                        onMouseEnter={() => setDropdownOpen(true)}
+                        onMouseLeave={() => setDropdownOpen(false)}
+                        onClick={() => {
+                            if (window.innerWidth <= 768) setDropdownOpen(!dropdownOpen);
+                        }}
+                    >
+                        <span className="dropdown-toggle">Machines</span>
+                        <div className="dropdown-content">
+                            <Link to="/machines/custom-vending-machines">Custom Machines</Link>
+                            <Link to="/machines/school-vending-machines">School Machines</Link>
+                            <Link to="/machines/hospital-vending-machines">Hospital Machines</Link>
+                            <Link to="/machines/gym-vending-machines">Gym Machines</Link>
+                            <Link to="/machines/fresh-food-vending-machines">Fast Food Machines</Link>
+                        </div>
+                    </div>
+
+                    <Link to="/blog">Blogs</Link>
+                    <Link to="/contact">Contact</Link>
+                </nav>
+            </header>
+
+            {/* Background overlay */}
+            <div className={`nav-bg ${menuActive ? 'active' : ''}`}></div>
         </>
     )
 }
