@@ -207,7 +207,9 @@ const ContactComp = () => {
             <span className="sub-title d-flex align-items-center justify-content-center text-center gap-10 mb-30">
               <span className="rel">EXPLORING OUR WORLD <br /> OF VISUAL AND INTERACTIVE DESIGN</span>
             </span>
+            <a href="/" onClick={(e) => { e.preventDefault(); window.location.href = '/about'; }}>
             <h2>ABOUT US</h2>
+            </a>
           </section>
 
 

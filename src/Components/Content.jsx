@@ -19,7 +19,7 @@ const ContentDetails = ({ dataSource, contentType }) => {
     // Determine content-specific settings
     const returnLink = contentType === 'blog' ? '/blog' : '/machines';
     const returnText = contentType === 'blog' ? 'More Blogs' : 'More Machines';
-    const nextText = contentType === 'blog' ? 'Next Case' : 'Next Machine';
+    const nextText = contentType === 'blog' ? 'Next Case' : 'Another Machine';
     
     return (
         <>

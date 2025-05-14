@@ -5,6 +5,7 @@ import Cursor from '../Components/Cursor/Cursor'
 import Footer from '../Shared/Footer'
 import { Articles } from '../Static/Articles'
 import ContentDetails from '../Components/Content'
+import CTA from '../Shared/CTA'
 
 const BlogDetails = () => {
     LoadScripts()
@@ -12,6 +13,7 @@ const BlogDetails = () => {
         <body className="v-dark dsn-ajax">
             <Navbar />
             <ContentDetails dataSource={Articles} contentType="blog" />
+            <CTA/>
             <Cursor />
             <Footer />
         </body>

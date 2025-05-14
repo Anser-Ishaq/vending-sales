@@ -6,6 +6,7 @@ import Footer from '../Shared/Footer'
 import { Machines } from '../Static/Machines'
 import LoadScripts from '../Hooks/LoadScripts'
 import Testimonials from '../Shared/Testimonials'
+import CTA from '../Shared/CTA'
 
 const MachineDetails = () => {
     LoadScripts()
@@ -14,6 +15,7 @@ const MachineDetails = () => {
             <Navbar />
             <ContentDetails dataSource={Machines} contentType="machines" />
             <Testimonials/>
+            <CTA/>
             <Cursor />
             <Footer />
         </body>
