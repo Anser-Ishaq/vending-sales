@@ -75,7 +75,7 @@ const CTA = () => {
                                     <ul className="">
                                         <li className="d-flex gap-5 text-upper">
                                             <span>Project inquiries :</span>
-                                            <a href="mailto:grass@emai.com">vending@emai.com</a>
+                                            <a href="mailto:grass@emai.com">admin@cpvlvending.com.au</a>
                                         </li>
                                     </ul>
                                 </div>
